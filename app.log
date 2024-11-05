@@ -36,3 +36,12 @@
 2024-10-31 12:10:50,427 - app.logger - WARNING - Allowed origins: ['http://localhost(:\\d+)?', 'http://192\\.168\\.0\\.105(:\\d+)?', 'https://dingdoorapp\\.com', 'https://knock24-inc\\.web\\.app', 'https://knock24-inc\\.firebaseapp\\.com', '']
 2024-10-31 12:10:50,427 - app.logger - INFO - development environment initialized
 2024-10-31 12:12:23,333 - app.logger - INFO - Squat score: 0.9754059910774231
+2024-10-31 17:55:13,308 - app.logger - INFO - Loading squat model...
+2024-10-31 17:55:14,149 - app.logger - INFO - *Development* environment detected, enabling CORS for specific domains.
+2024-10-31 17:55:14,149 - app.logger - WARNING - Allowed origins: ['http://localhost(:\\d+)?', 'http://192\\.168\\.0\\.105(:\\d+)?', '']
+2024-10-31 17:55:14,150 - app.logger - INFO - development environment initialized
+2024-10-31 17:55:16,529 - app.logger - INFO - Loading squat model...
+2024-10-31 17:55:17,181 - app.logger - INFO - *Development* environment detected, enabling CORS for specific domains.
+2024-10-31 17:55:17,181 - app.logger - WARNING - Allowed origins: ['http://localhost(:\\d+)?', 'http://192\\.168\\.0\\.105(:\\d+)?', '']
+2024-10-31 17:55:17,181 - app.logger - INFO - development environment initialized
+2024-10-31 17:55:21,922 - app.logger - INFO - Squat score: 0.8786916136741638

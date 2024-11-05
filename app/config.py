@@ -16,15 +16,17 @@ class DevelopmentConfig(Config):
 
     # Default allowed origins for development, including localhost, ngrok, and IPs with regex
     CORS_ORIGINS = [
-        r'http://localhost(:\d+)?',             # Allow localhost on any port
-        r'http://192\.168\.0\.105(:\d+)?',      # Allow 192.168.0.105 on any port
+        r'http://192\.168\.0\.105(:\d+)?',# Allow 192.168.0.105 on any port
+        r'http://157\.245\.87\.194(:\d+)?'
+        # Allow server official ip address for app
     ] + allowed_origins
 
 class ProductionConfig(Config):
     ENV = 'production'
     # Allow only the production URLs without regex or subdomains
     CORS_ORIGINS = [
-        r'http://192\.168\.0\.105(:\d+)?',      # Allow 192.168.0.105 on any port
+        r'http://192\.168\.0\.105(:\d+)?',# Allow 192.168.0.105 on any port
+        r'http://157\.245\.87\.194(:\d+)?'
         # Allow server official ip address for app
     ] + allowed_origins
 
