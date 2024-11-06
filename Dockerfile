@@ -6,18 +6,17 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# Install required packages
-RUN apt-get update && apt-get install -y g++ build-essential
-RUN pip install --no-cache-dir -r requirements.txt
+# Install required packages, including apt-utils to suppress warnings
+RUN apt-get update && apt-get install -y apt-utils g++ build-essential libgl1 libglib2.0-0
 
-# Make port 5000 available to the outside world
-EXPOSE 5000
+
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Define environment variable for Flask environment and default port
 ENV FLASK_APP=run.py  
-# Assuming your entry file is `run.py`
 ENV FLASK_ENV=production  
-# You might set this to `development` if debugging
 
 # Run the Flask application
 CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]

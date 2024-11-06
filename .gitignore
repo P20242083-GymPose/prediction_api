@@ -44,3 +44,7 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+.git
+__pycache__
+notebooks
+*.log
