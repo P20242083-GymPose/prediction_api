@@ -18,7 +18,6 @@ ENV FLASK_APP=run.py
 # Assuming your entry file is `run.py`
 ENV FLASK_ENV=production  
 # You might set this to `development` if debugging
-ENV PORT=5000
 
 # Run the Flask application
-CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=5000"]
+CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
