@@ -18,7 +18,8 @@ class DevelopmentConfig(Config):
     CORS_ORIGINS = [
         r'http://localhost(:\d+)?',
         r'http://192\.168\.0\.105(:\d+)?',# Allow 192.168.0.105 on any port
-        r'http://157\.245\.87\.194(:\d+)?'
+        r'http://157\.245\.87\.194(:\d+)?',
+        r'http://127\.0\.0\.1(:\d+)?'  # Allow localhost on any port
         # Allow server official ip address for app
     ] + allowed_origins
 
@@ -28,7 +29,8 @@ class ProductionConfig(Config):
     CORS_ORIGINS = [
         r'http://localhost(:\d+)?',
         r'http://192\.168\.0\.105(:\d+)?',# Allow 192.168.0.105 on any port
-        r'http://157\.245\.87\.194(:\d+)?'
+        r'http://157\.245\.87\.194(:\d+)?',
+        r'http://127\.0\.0\.1(:\d+)?'
         # Allow server official ip address for app
     ] + allowed_origins
 
