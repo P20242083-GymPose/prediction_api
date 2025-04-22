@@ -1,4 +1,4 @@
-from app.api.utils.mediapipe_utils import process_video
+from app.api.utils.squat_process import process_video
 from app.api.services import squat_model
 import numpy as np
 from ...logger import log
