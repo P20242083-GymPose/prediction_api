@@ -31,7 +31,7 @@ def get_score_squat_route():
         return jsonify({'error': str(e)}), 500
 
 @blueprint.route('/get-score-bicep-curl', methods=['POST'])
-def get_score_squat_route():
+def get_score_bicep_curl():
     try:
         #check for video file in the
         if 'video' not in request.files:
@@ -52,7 +52,7 @@ def get_score_squat_route():
     
     
 @blueprint.route('/get-score-front-raise', methods=['POST'])
-def get_score_squat_route():
+def get_score_front_raise():
     try:
         #check for video file in the
         if 'video' not in request.files:
