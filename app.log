@@ -57,3 +57,11 @@
 2024-11-05 19:09:12,202 - app.logger - INFO - *Development* environment detected, enabling CORS for specific domains.
 2024-11-05 19:09:12,202 - app.logger - WARNING - Allowed origins: ['http://localhost(:\\d+)?', 'http://192\\.168\\.0\\.105(:\\d+)?', 'http://157\\.245\\.87\\.194(:\\d+)?', '']
 2024-11-05 19:09:12,203 - app.logger - INFO - development environment initialized
+2025-04-22 22:02:58,352 - app.logger - INFO - Loading models...
+2025-04-22 22:02:59,765 - app.logger - INFO - *Development* environment detected, enabling CORS for specific domains.
+2025-04-22 22:02:59,766 - app.logger - WARNING - Allowed origins: ['http://localhost(:\\d+)?', 'http://192\\.168\\.0\\.105(:\\d+)?', 'http://157\\.245\\.87\\.194(:\\d+)?', 'http://127\\.0\\.0\\.1(:\\d+)?', '']
+2025-04-22 22:02:59,766 - app.logger - INFO - development environment initialized
+2025-04-22 22:03:01,927 - app.logger - INFO - Loading models...
+2025-04-22 22:03:02,193 - app.logger - INFO - *Development* environment detected, enabling CORS for specific domains.
+2025-04-22 22:03:02,193 - app.logger - WARNING - Allowed origins: ['http://localhost(:\\d+)?', 'http://192\\.168\\.0\\.105(:\\d+)?', 'http://157\\.245\\.87\\.194(:\\d+)?', 'http://127\\.0\\.0\\.1(:\\d+)?', '']
+2025-04-22 22:03:02,193 - app.logger - INFO - development environment initialized
